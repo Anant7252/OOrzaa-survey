@@ -9,6 +9,13 @@ const VALID_TRANSPORT_ISSUES = [
   "Cleanliness of vehicle",
   "Driver behavior",
   "No issues experienced",
+  // Hindi
+  "परिवहन का आराम (जैसे सीट, जगह)",
+  "यात्रा की समयपालिता",
+  "यात्रा के दौरान सुरक्षा",
+  "वाहन की सफाई",
+  "चालक का व्यवहार",
+  "कोई समस्या नहीं",
 ];
 
 const VALID_ACCOMMODATION_ISSUES = [
@@ -19,6 +26,14 @@ const VALID_ACCOMMODATION_ISSUES = [
   "Location of accommodation",
   "Staff service at accommodation",
   "No issues experienced",
+  // Hindi
+  "कमरों की सफाई",
+  "बिस्तर या सोने की व्यवस्था का आराम",
+  "सुविधाओं की उपलब्धता (जैसे गर्म पानी, एसी)",
+  "कमरे का आकार या जगह",
+  "आवास का स्थान",
+  "आवास में स्टाफ की सेवा",
+  "कोई समस्या नहीं",
 ];
 
 const VALID_FOOD_COORDINATION_ISSUES = [
@@ -30,6 +45,15 @@ const VALID_FOOD_COORDINATION_ISSUES = [
   "Clarity of communication from organizers",
   "Responsiveness to your requests",
   "No issues experienced",
+  // Hindi
+  "भोजन की गुणवत्ता या स्वाद",
+  "भोजन की स्वच्छता",
+  "भोजन विकल्पों की विविधता",
+  "आहार संबंधी जरूरतों के लिए उपयुक्तता",
+  "स्टाफ का व्यवहार या शिष्टाचार",
+  "आयोजकों से संचार की स्पष्टता",
+  "आपके अनुरोधों का जवाब",
+  "कोई समस्या नहीं",
 ];
 
 const VALID_HOW_HEARD = [
@@ -40,6 +64,14 @@ const VALID_HOW_HEARD = [
   "Traditional media",
   "Travel agent",
   "Other",
+  // Hindi
+  "सोशल मीडिया",
+  "दोस्तों या परिवार की सिफारिश",
+  "ऑनलाइन खोज",
+  "ओरजा वेबसाइट या संचार",
+  "पारंपरिक मीडिया",
+  "ट्रैवल एजेंट",
+  "अन्य",
 ];
 
 function validateSurvey(body) {
